@@ -163,7 +163,6 @@ void lcdInitModule(lcd_handler_t *lcd) {
 	lcdSendCommand(lcd, DISPLAY_CLEAR);
 	lcdSendCommand(lcd, CURSOR_TURN_OFF);
 	lcdSendCommand(lcd, CURSOR_START_FIRST_LINE);
-	// lcdSendCommand(lcd, CURSOR_BLINK);
 }
 
 void lcdClearDisplay(lcd_handler_t *lcd) {
